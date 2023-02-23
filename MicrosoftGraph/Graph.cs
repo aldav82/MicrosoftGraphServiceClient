@@ -4,7 +4,7 @@ namespace MicrosoftGraph
 {
     public static class Graph
     {
-        public static GraphServiceClient GenererClient()
+        public static GraphServiceClient GenerateClient()
         {
             var clientSecret = "YOUR_APP_CLIENT_SECRET";
             var clientId = "YOUR_APP_AZURE_CLIENT_ID";

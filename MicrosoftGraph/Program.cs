@@ -3,7 +3,7 @@ using MicrosoftGraph;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Azure Graph Client creation.....");
-var client = MicrosoftGraph.Graph.GenererClient();
+var client = MicrosoftGraph.Graph.GenerateClient();
 Console.WriteLine("Azure Graph Client created.....");
 
 string userName = "SOME_USER";
